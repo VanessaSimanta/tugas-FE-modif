@@ -11,10 +11,11 @@
 <body>
     <header>
         <a href="#home" class="logo"> Vanessa Simanta </a>
+        <i class="fa fa-bars" id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#education">Education</a>
-            <a href="#services">Services</a>
+            <a href="#skillss">Skills</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -45,7 +46,162 @@
             <div class="home-img">
                 <img src="assets/Programmer.jpeg" alt="a Programmer">
             </div>
-
     </section>
+
+    <!-- Education -->
+    <section class="education" id="education">
+        <h2 class="heading">Education <i class="fa fa-graduation-cap" id="icon"></i></h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023 - 2027</div>
+                <div class="timeline-content">
+                    <h3>Tarumanagara University</h3>
+                    <p>Computer Science</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Sekolah Kristen Ketapang 3 High School</h3>
+                    <p>Science Major</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017 - 2020</div>
+                <div class="timeline-content">
+                    <h3>Sekolah Kristen Ketapang 3 Middle School</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2011 - 2016</div>
+                <div class="timeline-content">
+                    <h3>Marie Joseph Elementary School</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!--skills-->
+    <section class="skills" id="skills">
+        <hr>
+        <h2 class="heading">Skills <i class="fa fa-star" id="icon"></i></h2>
+        <h3>Programming Language <i class="fa fa-laptop" id="icon"></i></h3>
+        <div class="skills-conntainer">
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Java Script</h4>
+                    <p> I have a good knowledge of java script and also some library like jquery</p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>PHP</h4>
+                    <p>I have a good knowledge of PHP and also some framework like laravel</p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Java</h4>
+                    <p>I'm quite good at basic java</p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>HTML & CSS</h4>
+                    <p>I have a good knowledge on both HTML and CSS</p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Python</h4>
+                    <p>I have a good knowledge of python and some library like numpy, matplotlib, and others</p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>C++</h4>
+                    <p>I'm quite good at basic C++</p>
+                </div>
+            </div>
+        </div>
+        <h3 class="others">Others</h3>
+        <div class="skills-conntainer1">
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Photoshop</h4>
+                    <p>I could use Photoshop very well for photo editing</p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Ilustrator</h4>
+                    <p>I could use Ilustrator very well for drawing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+     <section class="portfolio" id="portfolio">
+        <div class="portfolio-box">
+            <h2 class="heading">Portfolio <i class="fa fa-address-book" id="icon"></i></h2>
+            <div class="portfolio-item">
+                <img src="assets/blog.jpeg" alt="blog pict">
+                <h2>Making Blog For Coffee Shop</h2>
+                <p>Using PHP Laravel, Postgree SQL, HTML, CSS, Java Script, Bootstrap</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- contact -->
+     <section class="contact" id="contact">
+        <hr>
+        <h2 class="heading">Contact <i class="fa fa-phone" id="icon"></i></h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+            </div>
+            <div class="input-group2">
+                <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message"></textarea>
+                <input type="submit" value="Send" class="btn">
+            </div>
+        </form>
+    </section>
+    
+     <footer class="footer">
+        <div class="sosial">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <ul class="list">
+            <li> <a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skillss">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">Copyright &#169 Vanessa Simanta All rights reserved.</p>
+     </footer>
+     <script src="script.js"></script>
 </body>
 </html>
