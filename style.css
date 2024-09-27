@@ -272,6 +272,41 @@ span {
     }
 }
 
+/*About me */
+.about-me hr {
+    height:2px;
+    border-width:0;
+    color:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255)
+}
+
+.about-box {
+    background: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+.about-box p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 2rem;
+}
+
+.about-box span {
+    font-size: 22px;
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+.about-box:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px var(--main-color), 0 0 30px var(--main-color), 0 0 50px var(--main-color);
+}
+
 /*Education*/
 .heading {
     padding: 8rem 0;
@@ -636,6 +671,25 @@ span {
     background-color: #ffffff;
     margin: 2rem auto;
 }
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+      transform: translate(0, 3rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+  
+  .in-view {
+    animation: fade 0.3s 0.3s both;
+  }
+  
+  .not-in-view {
+    opacity: 0;
+  }
 
 /* Responsiveness */
 @media (max-width: 768px) {
